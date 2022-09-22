@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Напишите программу, которая на вход принимает число и выдает, является ли это число четным ? : 
+//  4 -> Да
+// -3 -> Нет
+//  7 -> Нет
