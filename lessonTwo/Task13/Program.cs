@@ -8,3 +8,10 @@ Console.Clear();
 
 Console.WriteLine( "Введите проверяемое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
+
+if (a > 99){
+    Console.WriteLine("Третья цифра заданного числа:" + a.ToString()[2]);
+}
+else{
+    Console.WriteLine("Третьего числа нет(");
+}
