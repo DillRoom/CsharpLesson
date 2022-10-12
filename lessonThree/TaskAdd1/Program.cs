@@ -4,3 +4,8 @@
 // 10 -> 4
 // 20 -> 7
 // 30 -> 8
+
+Console.Clear();
+
+Console.WriteLine("Введите трехзначное число:");
+int a = Convert.ToInt32(Console.ReadLine());
