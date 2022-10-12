@@ -7,18 +7,18 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите первую координату первой точки:");
+Console.WriteLine("Введите X координату первой точки:");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите вторую координату первой точки:");
+Console.WriteLine("Введите Y координату первой точки:");
 int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите третью координату первой точки:");
+Console.WriteLine("Введите Z координату первой точки:");
 int c = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите первую координату второй точки:");
+Console.WriteLine("Введите X координату второй точки:");
 int d = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите вторую координату второй точки:");
+Console.WriteLine("Введите Y координату второй точки:");
 int e = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите третью координату второй точки:");
+Console.WriteLine("Введите Z координату второй точки:");
 int f = Convert.ToInt32(Console.ReadLine());
 
 int A = a - d;
