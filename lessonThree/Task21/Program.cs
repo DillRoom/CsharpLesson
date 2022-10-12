@@ -7,5 +7,23 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите трехзначное число:");
+Console.WriteLine("Введите первую координату первой точки:");
 int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите вторую координату первой точки:");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третью координату первой точки:");
+int c = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите первую координату второй точки:");
+int d = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите вторую координату второй точки:");
+int e = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третью координату второй точки:");
+int f = Convert.ToInt32(Console.ReadLine());
+
+int A = a - d;
+int B = b - e;
+int C = c - f;
+
+double length = Math.Sqrt(A * A + B * B + C * C);
+Console.WriteLine($"Длинна отрезка {length}");
