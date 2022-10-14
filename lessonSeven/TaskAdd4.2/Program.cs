@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Вывести первые n строк треугольника Паскаля. Реализовать вывод в виде равнобедренного треугольника.
+
+// N = 7 -> https://ibb.co/yWPZbG7
