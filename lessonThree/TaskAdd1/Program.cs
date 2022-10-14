@@ -19,6 +19,11 @@ int S = Convert.ToInt32(Math.PI * ( r * r ));
 
 Console.WriteLine("Площадь круга:" + S);
 
+int lenArray = S;
+
+int[] array = new int[lenArray];
+
+
 //string s = Convert.ToString(s);
 //char a1 = Convert.ToString(S)[0];
 //char a2 = Convert.ToString(S)[1];
@@ -40,15 +45,16 @@ Console.WriteLine("Площадь круга:" + S);
 //int a9 = S.ToString()[8];
 //int a10 = S.ToString()[9];
 
-int [] array =  {Convert.ToInt32(Console.ReadLine())};
+//int [] array =  {Convert.ToInt32(Console.ReadLine())};
 //Console.WriteLine($"{a1}, {a2}, {a3}" );
-int Max = array[0]; 
+int Max = 0; 
 
-//for (int i = 1; i < array.Length; i++ ){
-   //  if(array[i] > Max){
-   //     Max = array[i];
-   //  }
-//}
+for (int i = 1; i < lenArray; i++ ){
+      if(array[i] > Max){
+      Max = array[i];
+      }
+      Console.WriteLine("Максимальная цифра:" + Max );
+}
 
-Console.WriteLine("Максимальная цифра:" + Max );
+//Console.WriteLine("Максимальная цифра:" + Max );
 
