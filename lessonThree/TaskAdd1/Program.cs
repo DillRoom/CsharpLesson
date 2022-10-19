@@ -53,8 +53,8 @@ for (int i = 1; i < lenArray; i++ ){
       if(array[i] > Max){
       Max = array[i];
       }
-      Console.WriteLine("Максимальная цифра:" + Max );
+     Console.WriteLine("Максимальная цифра:" + Max );
 }
 
-//Console.WriteLine("Максимальная цифра:" + Max );
+Console.WriteLine("Максимальная цифра:" + Max );
 
