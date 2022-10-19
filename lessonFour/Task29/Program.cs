@@ -5,7 +5,7 @@
 
 Console.Clear();
 
-Console.WriteLine("Через запятую ведите длинну массива: ");
+Console.WriteLine("Ведите длинну массива: ");
 
 int lenArray = Convert.ToInt32(Console.ReadLine());
 
