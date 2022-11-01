@@ -62,3 +62,12 @@ void ToDegree(int a, int b)
     }
     Console.WriteLine(a + " в степени " + b + " = " + result);
 }
+
+///Метод вывода натуральных чисел от N до 1:
+void NumberCounter (int number)
+{
+    if (number < 0) Console.Write($"{number} не натуральное число");
+    if (number == 0) return;
+    Console.Write("{0,4}", number);
+    NumberCounter (number - 1);
+}
