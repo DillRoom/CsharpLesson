@@ -96,3 +96,32 @@ void GapNumberSum (int numberM, int numberN, int sum)
     sum = sum + (numberM++);
     GapNumberSum(numberM, numberN, sum);
 }
+
+int N =1;
+int M =2;
+
+NODFunction(M,N);
+
+
+// вызов функции наибольшего общего делителя.
+void NODFunction(int m, int n)
+{
+    Console.Write(NOD(m, n)); 
+}
+
+// функция наибольшего общего делителя.
+int NOD(int m, int n)
+{
+    while (M != N)
+    {
+        if (N > M)
+        {
+        return NOD(N = N - M, M);
+        }
+        else
+        {
+        return (NOD(N, M = M - N));
+        }
+    }
+    return N; 
+}       
