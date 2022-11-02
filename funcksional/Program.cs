@@ -71,3 +71,16 @@ void NumberCounter (int number)
     Console.Write("{0,4}", number);
     NumberCounter (number - 1);
 }
+
+// Нахождение чётных чисел с двумя переменными.
+
+void Number ( int N,int M){
+    N = Math.Abs(N);
+    while (N <= M){
+        if ( N % 2 == 0 || N == 0 ){
+            Console.Write($"{N}."); 
+            } 
+            Number(N+1,M);
+            return;
+    }   
+}
